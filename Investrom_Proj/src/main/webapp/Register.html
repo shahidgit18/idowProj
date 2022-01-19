@@ -17,7 +17,13 @@
 <script async="" src="./js"></script>
     <script>
         window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', "G-NKKBBXXDG5");
-    </script>
+    
+    	
+    		 function emailVerify() {
+    	         window.location.href="./emailVerify.html";
+    	       }
+    	
+        </script>
     <script src="https://www.google.com/recaptcha/api.js?render=6LeUFrwUAAAAAOJzzQfz-ZlzAVR_UgqtL1cJU7uD"></script>
 	<!-- System Build v202111221151S7d5 @iO -->
 </head>
@@ -343,7 +349,7 @@
             
             <div class="form-group">
                 <input type="hidden" name="_token" value="tOOFksS7MOKiuR2yKIP0MGdw2uGqaQhGOhCqjBIC">                                    <input type="hidden" id="recaptcha" value="" name="recaptcha">
-                                                <button class="btn btn-lg btn-primary btn-block">Register</button>
+                                                <button class="btn btn-lg btn-primary btn-block" onclick="emailVerify()">Register</button>
             </div>
         </form>
                 <div class="form-note-s2 text-center pt-4">

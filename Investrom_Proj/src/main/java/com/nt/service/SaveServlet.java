@@ -33,8 +33,8 @@ public class SaveServlet extends HttpServlet {
 	     
 	     int status=CustDao.save(c);
 	     if(status>0) {
-	    	 out.print("<p>Record saved succesfully</p>");
-	    	 request.getRequestDispatcher("Login.html").include(request, response); 
+	    	 //out.print("<p>Record saved succesfully</p>");
+	    	 request.getRequestDispatcher("confirm.html").include(request, response); 
 	     }else {
 	    	 out.println("Sorry! unable to save record");  
 	     }
